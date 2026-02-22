@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bombuwala Public Library | Official Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Bombuwala Public Library – Your gateway to knowledge. Free access to books, digital resources, and community programs.">
+<meta name="keywords" content="Bombuwala Library, Public Library, Books, Reading, Education">
+<meta name="author" content="Bombuwala Public Library">
+
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+<style>
+* {margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+html {scroll-behavior:smooth;}
+body {background-color:#f4f6f9;color:#333;}
+
+header {
+background-color:#2c3e50;
+color:white;
+padding:20px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav a {
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+}
+
+nav a:hover, nav a.active {color:#f1c40f;}
+
+.hero {
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+url('BL9.png.jpeg') no-repeat center center/cover;
+height:300px;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+.hero h2 {
+background-color:rgba(0,0,0,0.6);
+padding:20px;
+border-radius:10px;
+font-size:2rem;
+}
+
+.section {padding:60px 20px;text-align:center;}
+
+.cards {
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.card {
+background:white;
+width:280px;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+padding-bottom:20px;
+transition:0.3s;
+}
+
+.card:hover {transform:translateY(-8px);}
+
+.card img {
+width:100%;
+height:200px;
+object-fit:cover;
+border-top-left-radius:15px;
+border-top-right-radius:15px;
+}
+
+.card h3 {margin-top:15px;}
+.position {color:#2c3e50;font-weight:bold;margin:5px 0;}
+.description {padding:0 15px;font-size:14px;margin:10px 0;}
+
+/* Opening Hours */
+#hours table {
+margin:0 auto;
+border-collapse:collapse;
+font-size:16px;
+background:white;
+border-radius:10px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+#hours td {
+padding:8px 20px;
+border-bottom:1px solid #f0f0f0;
+}
+
+#hours tr:last-child td {border-bottom:none;}
+
+/* Slider */
+.slider {
+position:relative;
+max-width:700px;
+margin:40px auto;
+height:400px;
+}
+
+.slide {
+position:absolute;
+width:100%;
+opacity:0;
+transition:opacity 1s ease-in-out;
+text-align:center;
+}
+
+.slide img {
+width:100%;
+height:350px;
+object-fit:cover;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.caption {
+margin-top:10px;
+font-weight:bold;
+font-size:18px;
+color:#2c3e50;
+}
+
+.slide.active {
+opacity:1;
+position:relative;
+}
+
+/* Achievements background */
+#achievements {
+background-color:#ecf0f1;
+}
+
+/* See More Us Section */
+#socials {
+background-color:#ecf0f1;
+}
+
+.social-container {
+margin-top:30px;
+display:flex;
+justify-content:center;
+gap:40px;
+}
+
+.social-container img {
+width:70px;
+height:70px;
+transition:0.3s;
+cursor:pointer;
+}
+
+.social-container img:hover {
+transform:scale(1.2);
+}
+
+/* Footer */
+footer {
+background-color:#2c3e50;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+@media (max-width:768px){
+.card{width:90%;margin:10px auto;}
+.cards{gap:15px;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>BOMBUWALA PUBLIC LIBRARY</h1>
+<nav>
+<a href="#">Home</a>
+<a href="#home-photos">Explore</a>
+<a href="#about">About</a>
+<a href="#hours">Opening Hours</a>
+<a href="#staff">Staff</a>
+<a href="#achievements">Achievements</a>
+<a href="#contact">Contact</a>
+<a href="#socials">See More Us</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Welcome to Bombuwala Public Library<br>Your Gateway to Knowledge</h2>
+</section>
+
+<!-- Explore Slider -->
+<section class="section" id="home-photos">
+<h2>Explore Our Library</h2>
+
+<div class="slider">
+
+<div class="slide active">
+<img src="BL1.png.jpeg" alt="Entrance">
+<p class="caption">Entrance</p>
+</div>
+
+<div class="slide">
+<img src="BL3.png.jpeg" alt="Infront Of Library">
+<p class="caption">Infront Of Library</p>
+</div>
+
+<div class="slide">
+<img src="BL4.png.jpeg" alt="Quiet Study Space">
+<p class="caption">Quiet Study Space</p>
+</div>
+
+<div class="slide">
+<img src="BL5.png.jpeg" alt="News Paper Reading Section">
+<p class="caption">News Paper Reading Section</p>
+</div>
+
+<div class="slide">
+<img src="BL7.png.jpeg" alt="Kids Learning Section">
+<p class="caption">Kids Learning Section</p>
+</div>
+
+<div class="slide">
+<img src="BL6.png.jpeg" alt="Outdoor Reading Area">
+<p class="caption">Outdoor Reading Area</p>
+</div>
+
+</div>
+</section>
+
+<!-- About -->
+<section class="section" id="about">
+<h2>About Our Library</h2>
+<div class="cards">
+<div class="card">
+<h3>Our Vision</h3>
+<p class="description">Our vision is to make this public library the most exemplary and the greatest institution in the area in order to achieve sustainable development</p>
+</div>
+<div class="card">
+<h3>Our Mission</h3>
+<p class="description">Our mission is to create a productive library withing the modernized world prioritizing sri lankan identify with an intelligent and virtuous and reading community</p>
+</div>
+<div class="card">
+<h3>Our History</h3>
+<p class="description">This library was established in 1987 and officially opened as a public library in 1992. It initially operated in a small building and was later developed with a new facility. It received official registration in 1998, and additional improvements were made in 2006. Further developments took place in 2013, and modern services were introduced after 2019. Today, it serves the community with hundred of books and many active members.</p>
+</div>
+</div>
+</section>
+
+<!-- Opening Hours -->
+<section class="section" id="hours">
+<h2>Library Opening Hours</h2>
+<table>
+<tr><td>Monday</td><td>8.30 AM - 4.30 PM</td></tr>
+<tr><td>Tuesday</td><td>8.30 AM - 4.30 PM</td></tr>
+<tr><td>Wednesday</td><td>8.30 AM - 4.30 PM</td></tr>
+<tr><td>Thursday</td><td>8.30 AM - 4.30 PM</td></tr>
+<tr><td>Friday</td><td>8.30 AM - 4.30 PM</td></tr>
+<tr><td>Saturday</td><td>8.30 AM - 4.30 PM</td></tr>
+<tr><td>Sunday</td><td>Closed</td></tr>
+<tr><td>Closed on </td><td>All Poya days and public holidays</td></tr>
+</table>
+</section>
+
+<!-- Staff -->
+<section class="section" id="staff">
+<h2>Our Library Staff</h2>
+<div class="cards">
+<div class="card">
+<img src="L1.jpeg">
+<h3>Mrs.E.A.A.Udayakanthi</h3>
+<p class="position">Librarian</p>
+<p class="description">Geade ii librarian</p>
+</div>
+
+<div class="card">
+<img src="L3.jpg">
+<h3>Mrs.W.H.Niluka Madushani</h3>
+<p class="position">Library Assistant</p>
+<p class="description"></p>
+</div>
+
+
+<!-- Achievements -->
+<section class="section" id="achievements">
+<h2>Our Achievements</h2>
+<p>Celebrating milestones and recognitions over the years:</p>
+
+<div class="cards">
+
+<div class="card">
+<img src="A1.jpeg">
+<h3>In recognition of providing excellent service to the public, the Department of Local Government of the Western Province</h3>
+<p class="position">Awarded on:2017</p>
+</div>
+
+
+<div class="card">
+<img src="A3.jpeg">
+<h3>Reading Month Appreciation Award</h3>
+<p class="position">Awarded on:2019</p>
+</div>
+
+<div class="card">
+<img src="A4.jpeg">
+<h3>The Best Librarian Of the Dodangoda Pradeshiya Sabha </h3>
+<p class="position">Awarded on:2019</p>
+</div>
+
+<div class="card">
+<img src="A2.jpeg">
+<h3>Performance-oriented 2019/2020 Library Evaluation Competition (Grade III) Kalutara District - Second Place</h3>
+<p class="position">Awarded on:2020 </p>
+</div>
+
+<div class="card">
+<img src="A6.jpeg">
+<h3>Commendation Of National Productivity Awards</h3>
+<p class="position">Awarded on:2022</p>
+<p class="description">Awarded for excellence in digital services and online accessibility.</p>
+</div>
+
+<div class="card">
+<img src="A5.jpeg">
+<h3>2024 National Reading Month Victory</h3>
+<p class="position">Awarded on:2024</p>
+<p class="description">Awarded for excellence in digital services and online accessibility.</p>
+</div>
+
+
+</div>
+</section>
+<br>
+
+<!-- Contact -->
+<section class="section" id="contact">
+<h2>Contact Us</h2>
+<p>Contact Number: 0342216154</p>
+<p>Email: bombuwalapubliclibrary2005@gmail.com</p>
+<p>Address: Bombuwala Public Library, Bombuwala</p>
+</section>
+<br> <br> <br> 
+<!-- See More Us -->
+<section class="section" id="socials">
+<h2>See More Us</h2>
+<p>Follow Bombuwala Public Library on social media</p>
+<br>
+<div class="social-container">
+<a href="https://www.facebook.com/share/1E5EwWtsgR/">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+</a>
+
+<a href="https://www.tiktok.com/@bombuwala.public?_r=1&_t=ZS-947aQz4Tfwi">
+<img src="https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" alt="TikTok Logo">
+</a>
+</div>
+</section>
+<footer>
+<p>&copy; <span id="year"></span> Bombuwala Public Library | All Rights Reserved</p>
+</footer>
+
+<script>
+// Dynamic Year
+document.getElementById("year").textContent = new Date().getFullYear();
+
+// Slider
+let slides = document.querySelectorAll(".slide");
+let index = 0;
+
+function showSlide() {
+slides[index].classList.remove("active");
+index = (index + 1) % slides.length;
+slides[index].classList.add("active");
+}
+setInterval(showSlide, 6000);
+</script>
+
+</body>
+</html>
